@@ -10,6 +10,12 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      */
+    private $permision =[
+        'role-list',
+        'role-create',
+        'role-edit',
+        'role-delete',
+    ];
     public function run(): void
     {
         // \App\Models\User::factory(10)->create();
