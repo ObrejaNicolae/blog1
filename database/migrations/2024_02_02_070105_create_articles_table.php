@@ -25,7 +25,7 @@ return new class extends Migration
             $table->foreign('category_id')
             ->references('id')
             ->on('categories');
-            $table->timestamps('published_at')->nullable();
+            $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
     }
